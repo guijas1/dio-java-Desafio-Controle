@@ -20,7 +20,7 @@ public class Controle {
         if (parametroDois <= parametroUm)
             throw new ParametroInvalidoException();
         int contagem = parametroDois - parametroUm;
-        for (int i = 0; i < contagem; i++) {
+        for (int i = 1; i < contagem; i++) {
             System.out.println("Imprimindo o numero " + (i));
         }
     }
